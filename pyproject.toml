@@ -1,0 +1,16 @@
+[project]
+name = "livekitcalls"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "livekit-agents[openai]>=1.1.5",
+    "livekit-plugins-noise-cancellation>=0.2.5",
+    "livekit-plugins-silero>=1.1.5",
+    "loguru>=0.7.3",
+    "pydantic>=2.11.7",
+    "python-dotenv>=1.1.1",
+    "twilio>=9.6.4",
+]

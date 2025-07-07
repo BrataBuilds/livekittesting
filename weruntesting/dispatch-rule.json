@@ -1,0 +1,8 @@
+{
+  "rule": {
+    "dispatchRuleAgentDispatch": {
+      "agentName": "interview-agent",
+      "roomPrefix": "interview"
+    }
+  }
+}
